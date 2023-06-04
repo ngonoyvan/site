@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box; 
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y:hidden;
+}
+.easy{
+    width: 110px;
+    height: 50px;
+    object-fit: cover;
+}
+.carousel-item img {
+   filter: brightness(70%);
+}
+.tof img{
+    width:300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
